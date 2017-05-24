@@ -1,0 +1,129 @@
+.wrist_top{
+	width:100%;
+	height: 493px;
+	background:#000 url(../img/wrist_bg.jpg)left no-repeat;
+	position: relative;
+}
+.wrist_top .cover{
+	width:100%;
+	height: 493px;
+	background: rgba(0,0,0,.69);
+	position: absolute;
+	top:0;
+}
+.wrist_top .cover .font{
+	width: 360px;
+	height: 75px;
+	position: absolute;
+	right: 5%;
+	top:40%;
+}
+.wrist_top .cover .font p{
+	font-size: 24px;
+	color:#fff;
+	text-align: center;
+}
+
+.content_wrist h6{
+	color:#000;
+	font-size: 12px;
+	padding-top: 20px;
+}
+.content_wrist h6 a{
+	color:#404040;
+}
+.content_wrist h6 a:hover{
+	color:#000;
+}
+.content_wrist h2{
+	color:#404040;
+	font-size: 36px;
+	text-align: center;
+	margin:70px auto 20px;
+}
+.content_wrist h5{
+	text-align: center;
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+.content_wrist .word{
+	overflow: hidden;
+}
+.content_wrist .word .left{
+	width:493px;
+	float: left;
+	margin-right: 50px;
+}
+.content_wrist .word .left p{
+	text-indent: 2em;
+	color:#3e3e3e;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.content_wrist .word .left h4{
+	float: right;
+	color:#3e3e3e;
+}
+.content_wrist .word .left h4 span{
+	float: left;
+	display: block;
+	width:70px;
+	height: 25px;
+	margin-left: 15px;
+	text-indent: 25px;
+	cursor: pointer;
+}
+.content_wrist .word .left h4 .weibo{
+	background: url(../img/weibo.png)left 8px no-repeat;
+}
+.content_wrist .word .left h4 .weibo:hover{
+	color:#101010;
+	background: url(../img/weibo_active.png)left 4px no-repeat;
+}
+.content_wrist .word .left h4 .wechat{
+	background: url(../img/wechat.png)left 8px no-repeat;
+}
+.content_wrist .word .left h4 .wechat:hover{
+	color:#101010;
+	background: url(../img/wechat_active.png)left 4px no-repeat;
+}
+.content_wrist .word .right{
+	float: right;
+	width:457px;
+}
+.content_wrist .word .right img{
+	margin-bottom: 15px;
+}
+
+.content_wrist .bottom{
+	margin-top: 100px;
+}
+.content_wrist .bottom .prev,.content_wrist .bottom .next{
+	color:#3e3e3e;
+	font-size: 14px;
+	line-height: 35px;
+}
+.content_wrist .bottom .prev:hover,.content_wrist .bottom .next:hover{
+	color:#101010;
+}
+.content_wrist .bottom .prev{
+	float: left;
+}
+.content_wrist .bottom .next{
+	float: right;
+}
+.content_wrist .bottom .backtop{
+	display: block;
+	width:90px;
+	height: 35px;
+	background: #9D9C9C;
+	margin:0 auto 60px;
+	line-height: 35px;
+	text-align: center;
+	color:#fff;
+	font-size: 12px;
+}
+.content_wrist .bottom .backtop:hover{
+	background: #000;
+}

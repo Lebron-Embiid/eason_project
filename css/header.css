@@ -1,0 +1,107 @@
+/*公共样式*/
+.common_width{
+	width:1120px;
+	margin:0 auto;
+}
+
+/*头部样式--开始*/
+header .logo{
+	width:100%;
+	min-width: 1200px;
+	height: 148px;
+	background: url(../img/gradient_bg.jpg);
+	cursor: pointer;
+}
+header .logo img{
+	display: block;
+	margin:0 auto;
+	padding-top: 16px;
+}
+header nav{
+	width:100%;
+	min-width: 1200px;
+	height: 44px;
+	background: #363636;
+	position: relative;
+}
+header nav ul{
+	width:800px;
+	margin: 0 auto;
+}
+header nav ul li a{
+	display: block;
+	width:74px;
+	height: 42px;
+	border-bottom: 2px solid #363636;
+	line-height: 44px;
+	float: left;
+	text-align: center;
+	margin-right: 70px;
+	color:#fff;
+	font-size: 14px;
+}
+header nav ul li:last-child a{
+	margin-right: 0;
+}
+header nav ul li.active a,header nav ul li:hover a{
+	color:#c5842d;
+	border-bottom-color: #fff;
+}
+header nav ul li:hover .column{
+	display: block;
+}
+header nav .column{
+	width:100%;
+	height: 270px;
+	background: #1B1B1B;
+	position: absolute;
+	left: 0;
+	top:44px;
+	z-index: 2;
+	display: none;
+}
+header nav .column .column_list{
+	width:1280px;
+	margin: 60px auto 0;
+}
+header nav .column .column_list li{
+	width:309px;
+	height: 148px;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+header nav .column .column_list li:hover .cover{
+	cursor: pointer;
+	background: none;
+}
+header nav .column .column_list li:hover img,header nav .column .column_list li:hover h3{
+	animation:scale 1s linear forwards;
+}
+header nav .column .column_list li:last-child{
+	margin-right: 0;
+}
+header nav .column .column_list li .cover{
+	width:309px;
+	height: 148px;
+	position: absolute;
+	top:0;
+	background: rgba(255,255,255,.2);
+}
+header nav .column .column_list li .cover h3{
+	color:#fff;
+	font-size: 24px;
+	text-align: center;
+	line-height: 148px;
+}
+
+@keyframes scale{
+	from{
+		transform:scale(1);
+	}
+	to{
+		transform:scale(1.3);
+	}
+}
+/*头部样式--结束*/

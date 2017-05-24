@@ -1,0 +1,256 @@
+.content{
+	width: 100%;
+	background: #000;
+	overflow: hidden;
+}
+.content .new{
+	padding-bottom: 50px;
+}
+.content .new h6{
+	margin-top: 20px;
+	color:#b9b9b9;
+	font-size: 12px;
+	font-weight: lighter;
+}
+.content .new h6 a{
+	color:#b9b9b9;
+	font-size: 12px;
+	font-weight: lighter;
+}
+.content .new h6 a:hover{
+	color: #fff;
+}
+.content .new h2{
+	font-size: 72px;
+	color:#fff;
+	margin-top: 70px;
+	text-align: center;
+	line-height: 72px;
+}
+.content .new .line{
+	display: block;
+	width:40px;
+	height: 1px;
+	background: #C5842D;
+	margin: 50px auto 60px;
+}
+.content .new p{
+	color: #878787;
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+}
+/*女装腕表*/
+.content .women{
+	position: relative;
+}
+.content .women img{
+	display: block;
+	width: 100%;
+	height: 424px;
+}
+.content .women .cover{
+	width:100%;
+	height: 424px;
+	position: absolute;
+	top:0;
+}
+.content .women .cover h2{
+	color:#fff;
+	font-size: 48px;
+	margin: 130px 0 30px 0;
+}
+.content .women .cover p{
+	color:#878787;
+	font-size: 18px;
+	line-height: 30px;
+}
+.content .watch_slide .center{
+	width:1366px;
+	margin:0 auto;
+}
+.content .watch_slide h2{
+	font-size: 36px;
+	line-height: 36px;
+	color:#fff;
+	text-align: center;
+	margin:60px 0 110px 0;
+}
+.content .watch_slide .left,.right{
+	float: left;
+	width:100px;
+	height: 345px;
+	line-height: 345px;
+	text-align: center;
+	font-size: 72px;
+	color:#3e3e3e;
+	cursor: pointer;
+}
+.content .watch_slide .left:hover,.content .watch_slide .right:hover{
+	color:#fff;
+}
+.content .watch_slide .list{
+	float: left;
+}
+.content .watch_slide .list li{
+	float: left;
+	padding: 0 40px;
+}
+.content .watch_slide .list span.line{
+	display: block;
+	width:1px;
+	height: 363px;
+	background: #A0A0A0;
+	float: left;
+}
+.content .watch_slide .list li img{
+	display: block;
+	margin-bottom: 40px;
+}
+.content .watch_slide .list li p{
+	font-size: 14px;
+	color:#fff;
+	line-height: 23px;
+	text-align: center;
+}
+.content .watch_slide .list .info{
+	overflow: hidden;
+}
+.content .watch_slide .list .top{
+	padding-top: 10px;
+}
+.content .watch_slide .list .info:hover p{
+	color:#c5842d;
+	cursor: pointer;
+}
+.content .watch_slide .nav{
+	width: 61px;
+	margin:0 auto;
+	padding: 48px 0 100px 0;
+}
+.content .watch_slide .nav li{
+	float: left;
+	width: 9px;
+	height: 9px;
+	border:1px solid #737373;
+	margin-right: 7px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.content .watch_slide .nav li:last-child{
+	margin-right: 0;
+}
+.content .watch_slide .nav li.active,.content .watch_slide .nav li:hover{
+	background: #fff;
+}
+
+/*男装腕表*/
+.content .man{
+	height: 424px;
+}
+.content .man .common_width{
+	width: 1120px;
+	height: 424px;
+	position: relative;
+	top:-424px;
+}
+.content .man img{
+	display: block;
+	width: 100%;
+	height: 424px;
+}
+.content .man .cover{
+	width: 430px;
+	height: 170px;
+	position: absolute;
+	top:0;
+	right:0px;
+}
+.content .man .cover h2{
+	color:#fff;
+	font-size: 48px;
+	line-height: 48px;
+	padding: 130px 0 30px 0;
+}
+.content .man .cover p{
+	color:#878787;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+/*寻找腕表*/
+.find{
+	width: 100%;
+	height: 800px;
+	background: #fff;
+}
+.find .center{
+	width:1167px;
+	overflow: hidden;
+	margin:0 auto;
+}
+.find .center .img_find{
+	margin-top: 115px;
+	position: relative;
+}
+.find .center .img_find .cover{
+	width:250px;
+	height: 90px;
+	background: #000;
+	position: absolute;
+	top:100px;
+	left: 90px;
+}
+.find .center .img_new{
+	margin-top: 15px;
+	position: relative;
+}
+.find .center .img_new .cover{
+	width:250px;
+	height: 90px;
+	position: absolute;
+	top: 100px;
+	left: 90px;
+}
+.find .center .img_find .cover h2,.find .center .img_new .cover h2{
+	color:#fff;
+	font-size: 29px;
+	margin-bottom: 20px;
+}
+.find .center .img_find .cover a,.find .center .img_new .cover a{
+	color:#c5842d;
+	font-size: 13px;
+}
+.find .center .img_find .cover a:hover,.find .center .img_new .cover a:hover{
+	color:#fff;
+}
+.find span{
+	display: block;
+	width: 90px;
+	height: 35px;
+	background: #9C9C9C;
+	color:#fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 35px;
+	margin:35px auto 0;
+	cursor: pointer;
+}
+.find span:hover{
+	background: #000;
+}
+
+/*导航动画样式*/
+header nav .column .column_list li{
+	width:621px;
+}
+header nav .column .column_list li .cover{
+	width: 621px;
+}
+header nav .column .column_list li .cover h3{
+	text-align: right;
+	margin-right: 100px;
+}
+header nav .column .column_list li{
+	margin-right: 38px;
+}
